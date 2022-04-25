@@ -1,0 +1,108 @@
+.form-container{
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid rgba(149, 160, 167, 1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: -12px 10px 0px -3px rgba(255,224,179,0.99);
+
+}
+.form-title{
+    font-size: 35px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    color: #2A414F;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.input-group{
+    margin-bottom: 20px;
+
+}
+.input-group label{
+    display: block;
+    margin-left: 6px;
+    margin-bottom: 8px;
+
+}
+.input-group input{
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+
+}
+.form-submit{
+    width: 415px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 153, 0, 0.3);
+    cursor: pointer;
+}
+.form-submit:hover{
+    background: rgba(255, 153, 0, 0.9);
+
+}
+.create-account{
+    text-align: center;
+}
+.form-link{
+    color: #FF9900;
+    text-decoration: none;
+    font-size: 18px;
+}
+.line-or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.line-or span{
+    margin: 0 12px;
+}
+.empty-div{
+    border: 1px solid #95A0A7;
+    width: 145px;
+    
+}
+.btn-container{
+   background: #FFFFFF;
+   border: 1px solid #95A0A7;
+   box-sizing: border-box;
+   border-radius: 8px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.continue-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #FFFFFF;
+
+}
+.continue-button p{
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+.GoogleLogo{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+}
